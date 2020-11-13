@@ -1,5 +1,8 @@
 # React To Do List
-A web application built in React 
+A web application built in React.
+
+## Demo
+
 
 ## Creating the App.js, adding an about page, the header and a React router
 The rest of the code will be in the repository (deployment)
@@ -73,3 +76,6 @@ export default App;
 
 ## Example (demo screencast)
 ![2020-11-13-15-16-40](https://user-images.githubusercontent.com/36749450/99124615-7fa6df80-25d0-11eb-89c9-64ce67e07e31.gif)
+
+## License
+GPL v3.0
