@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Body CSS */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+
+}
+
+/* Links */
+a {
+  color: #333;
+  text-decoration: none;
+  
+}
+
+/* Container class */
+.container {
+  padding: 0 1rem;
+}
+
+/* Submit button */
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+  
+}
+
+/* Submit hover button */
+.btn:hover {
+  background: #666;
+}
+
+/* Input CSS */
+input[type=text] {
+  padding-left: 10px;
+}
+
