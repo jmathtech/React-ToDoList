@@ -2,6 +2,7 @@
 A web application built in React.
 
 ## Demo
+[Click here to demo the "To-Do List"](https://jmathtech.github.io/React-ToDoList/)
 
 
 ## Creating the App.js, adding an about page, the header and a React router
