@@ -8,7 +8,7 @@ A web application built in React.
 
 ## Creating the App.js, adding an about page, the header and a React router
 The rest of the code will be in the repository (deployment)
-```react
+```jsx
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Todo from './components/Todos';
