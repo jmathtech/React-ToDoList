@@ -1,4 +1,4 @@
-# React To Do List
+# React - To Do List
 A web application built in React.
 
 ## Demo
