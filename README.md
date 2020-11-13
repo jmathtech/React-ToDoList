@@ -9,50 +9,9 @@ A web application built in React.
 ## Creating the App.js, adding an about page, the header and a React router
 The rest of the code will be in the repository (deployment)
 ```jsx
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Todo from './components/Todos';
-import AddToDo from './components/AddToDo';
-import About from './components/pages/About';
-import Header from './components/layout/Header';
-import { v4 as uuidv4 } from 'uuid';
-
-import './index.css';
-
-// JSX
-class App extends Component {
-  state = {
-    todos: []
-  }
-
-  // Toggle Complete
-  markComplete = (id) => {
-    this.setState({ todos: this.state.todos.map(todo => {
-      if(todo.id === id) {
-        todo.completed = !todo.completed
-      }
-      return todo;
-    }) });
-  }
-
-  // Delete Todo
-  delTodo = (id) => {
-    this.setState({ todos: [...this.state.todos.filter(todo => todo.id !== id)] });
-  }
-
-
-  // Add ToDo
-  AddToDo = (title) => {
-    const newToDo = {
-      id: uuidv4(),
-      title,
-      completed: false
-    }
-    this.setState({ todos: [...this.state.todos, newToDo] });
-  }
-
-  // Render
-  // No props sinceits running in App.js
+  // Render 
+  // No props since its running in App.js
+  // Run React.Fragment for the React Router to route the ToDo state in Home and one for the About page
   render() {
       return (
         <Router>
