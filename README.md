@@ -42,4 +42,4 @@ export default App;
 GPL v3.0
 
 ## Special Thanks
-[Traversy Media"](https://www.traversymedia.com)
+[Traversy Media](https://www.traversymedia.com) for helping me learn React.
