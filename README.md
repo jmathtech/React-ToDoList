@@ -40,3 +40,6 @@ export default App;
 
 ## License
 GPL v3.0
+
+## Special Thanks
+[Traversy Media"](https://www.traversymedia.com)
