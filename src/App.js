@@ -4,6 +4,9 @@ import Todo from './components/Todos';
 import AddToDo from './components/AddToDo';
 import About from './components/pages/About';
 import Header from './components/layout/Header';
+
+// This is to allow the 'uuid' in the ToDo id section to get an id everytime the user enters in a ToDo entry. Updated to version 4.
+// If this doesn't work the first time, then reinstall the npm using 'npm install' in the terminal.
 import { v4 as uuidv4 } from 'uuid';
 
 import './App.css';
