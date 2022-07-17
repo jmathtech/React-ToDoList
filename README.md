@@ -1,5 +1,5 @@
 # React - To Do List
-A web application built in React.
+A web application built in React. My first project in ReactJS. 
 
 ## Demo
 [Click here to demo the "To-Do List"](https://jmathtech.github.io/React-ToDoList/)
@@ -41,5 +41,5 @@ export default App;
 ## License
 GPL v3.0
 
-## Special Thanks
+## Credit & Special Thanks
 [Traversy Media](https://www.traversymedia.com) for helping me learn React.
